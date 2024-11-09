@@ -20,8 +20,9 @@ import { DashboardComponent } from './pages/view/dashboard/dashboard.component';
 import { ContentComponent } from './pages/view/content/content.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ReactiveFormsModule } from '@angular/forms';
 
-
+import { ButtonModule } from 'primeng/button';
 
 
 
@@ -45,7 +46,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatSidenavModule,
     MatIconModule,
     BrowserAnimationsModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule,
+    ButtonModule
   ],
   providers: [
     provideAnimationsAsync()

@@ -1,8 +1,13 @@
+
 <mat-card>
-    <!-- 
-    <mat-form-field>
-        <mat-label> Seu Nome</mat-label>
-        <input matInput placeholder="Nome de usuário" value="user">
-    </mat-form-field>
--->
+<form [formGroup]="signUpform">
+    <h2> Nome de Usuário </h2>
+    <input matInput formControlName="user">
+    <h2>Email</h2>
+    <input matInput formControlName="email">
+    <h2> Senha </h2>
+    <input matInput formControlName="pword">
+
+
+</form>
 </mat-card>
