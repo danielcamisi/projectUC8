@@ -1,0 +1,19 @@
+<mat-toolbar>
+    <button (click)="open()">
+    <mat-icon>menu</mat-icon>
+</button>
+</mat-toolbar>
+<div class="div-main">
+<mat-sidenav-container>
+    <mat-sidenav [opened]="sidenav"> Opened </mat-sidenav>
+    <mat-sidenav-content> closed 
+        <main>
+            <router-outlet></router-outlet>
+        </main>
+            
+    </mat-sidenav-content>
+</mat-sidenav-container>
+</div>
+<footer>
+    <p>something</p>
+</footer>
