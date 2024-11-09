@@ -4,16 +4,15 @@
 </button>
 </mat-toolbar>
 <div class="div-main">
-<mat-sidenav-container>
+<mat-sidenav-container class="sidenav-container">
     <mat-sidenav [opened]="sidenav"> Opened </mat-sidenav>
     <mat-sidenav-content> closed 
-        <main>
+        <main class="main-content">
             <router-outlet></router-outlet>
         </main>
-            
+        <footer>
+            <p>something</p>
+        </footer>           
     </mat-sidenav-content>
 </mat-sidenav-container>
 </div>
-<footer>
-    <p>something</p>
-</footer>
