@@ -1,0 +1,38 @@
+footer{
+    position: fixed;
+    bottom:0;
+    right: 0;
+    left:0;
+    color: #847577;
+    width: 100%;
+    height: 2em;
+}
+.sidenav-container {
+    height: 100vh; /* Define a altura total da tela */
+    display: flex; /* Usando flexbox para controlar o layout */
+  }
+  
+  mat-sidenav {
+    width: 250px; /* Largura da sidenav */
+    flex-shrink: 0; /* Não permitir que a sidenav encolha */
+    
+  }
+  
+  mat-sidenav-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* A área de conteúdo vai ocupar o espaço restante */
+    background-color: #3e73cf;;
+  }
+  
+  .main-content {
+    flex-grow: 1; /* O conteúdo principal ocupa o espaço restante */
+    padding: 20px; /* Padding interno para o conteúdo */
+    overflow-y: auto; /* Permite rolar o conteúdo principal, se necessário */
+  }
+  
+mat-toolbar{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}

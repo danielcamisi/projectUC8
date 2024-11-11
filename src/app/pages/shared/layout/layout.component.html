@@ -1,0 +1,20 @@
+<ngx-spinner type="ball-scale-multiple" style="color:white">Carregando...</ngx-spinner>
+<div class="div-main">
+    <mat-toolbar>
+        <button (click)="open()">
+                <mat-icon>menu</mat-icon>
+        </button>
+    </mat-toolbar>
+<mat-sidenav-container class="sidenav-container">
+    <mat-sidenav [opened]="sidenav"> Opened </mat-sidenav>
+    <mat-sidenav-content> 
+        <main class="main-content">
+            <router-outlet></router-outlet>
+        </main>
+        <footer>
+            <p>Copyright Senac TI 28.23</p>
+        </footer>           
+       
+    </mat-sidenav-content>
+</mat-sidenav-container>
+</div>
