@@ -1,0 +1,25 @@
+.chart-pie p-chart {
+    width: 20em;
+}
+.chart-pie{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+.title-chart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3em;
+}
+
+.div-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}

@@ -25,6 +25,11 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ButtonModule } from 'primeng/button';
 import { CarouselModule } from 'primeng/carousel';
 import { InputTextModule } from 'primeng/inputtext';
+import { ChartModule } from 'primeng/chart';
+import { TableModule } from 'primeng/table';
+import { FieldsetModule } from 'primeng/fieldset';
+
+
 
 import { NgxSpinnerModule } from "ngx-spinner";
 
@@ -52,7 +57,10 @@ import { NgxSpinnerModule } from "ngx-spinner";
     ButtonModule,
     InputTextModule,
     NgxSpinnerModule,
-    CarouselModule
+    CarouselModule,
+    ChartModule,
+    TableModule,
+    FieldsetModule
   ],
   providers: [
     provideAnimationsAsync()

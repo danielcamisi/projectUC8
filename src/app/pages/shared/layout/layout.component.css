@@ -15,9 +15,16 @@ footer{
   mat-sidenav {
     width: 250px; /* Largura da sidenav */
     flex-shrink: 0; /* Não permitir que a sidenav encolha */
-    
   }
-  
+  .side-nav-div{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+
+  }
+  .side-nav-div p-button{
+    padding: 1em;
+  }
   mat-sidenav-content {
     display: flex;
     flex-direction: column;

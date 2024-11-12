@@ -6,7 +6,14 @@
         </button>
     </mat-toolbar>
 <mat-sidenav-container class="sidenav-container">
-    <mat-sidenav [opened]="sidenav"> Opened </mat-sidenav>
+    <mat-sidenav [opened]="sidenav"> 
+        <div class="side-nav-div">
+            <a routerLink="/login">Login</a>
+            <a routerLink="/register">Cadastrar</a>
+            <a routerLink="/home">Dashboard</a>
+            <a routerLink="/">Página Principal</a>
+    </div>
+         </mat-sidenav>
     <mat-sidenav-content> 
         <main class="main-content">
             <router-outlet></router-outlet>
@@ -14,7 +21,6 @@
         <footer>
             <p>Copyright Senac TI 28.23</p>
         </footer>           
-       
     </mat-sidenav-content>
 </mat-sidenav-container>
 </div>

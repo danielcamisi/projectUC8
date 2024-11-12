@@ -20,7 +20,7 @@ export class LayoutComponent implements OnInit{
   
   }
     
-
+    
     open(){
       this.sidenav = !this.sidenav;  
    } 
