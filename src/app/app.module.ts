@@ -23,7 +23,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
 
 import { ButtonModule } from 'primeng/button';
-
+import { CarouselModule } from 'primeng/carousel';
 import { InputTextModule } from 'primeng/inputtext';
 
 import { NgxSpinnerModule } from "ngx-spinner";
@@ -52,7 +52,7 @@ import { NgxSpinnerModule } from "ngx-spinner";
     ButtonModule,
     InputTextModule,
     NgxSpinnerModule,
-  
+    CarouselModule
   ],
   providers: [
     provideAnimationsAsync()

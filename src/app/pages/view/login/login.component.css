@@ -1,0 +1,19 @@
+.inside-register{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 1.5em;
+}
+mat-card{
+    display: flex;
+}
+
+.button-mat-card{
+    padding-top: 1rem;
+}
+.div-main{
+    display: flex;
+    flex-direction: row;
+
+}

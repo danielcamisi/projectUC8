@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Form, FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-register',
@@ -8,10 +9,9 @@ import { Form, FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class RegisterComponent implements OnInit{
       signUpform!: FormGroup;
-
       constructor(
         private formBuilder: FormBuilder,
-
+        private router: Router
       ){}
   ngOnInit():void{
       this.signUpform = this.formBuilder.group({
@@ -23,7 +23,8 @@ export class RegisterComponent implements OnInit{
 
     submit(){
       if(this.signUpform.valid){
-        console.log("Usuário registrado com sucesso")
+        console.log("Usuário registrado com sucesso");
+        this.router.navigate(['login']);
       }
     }
 
