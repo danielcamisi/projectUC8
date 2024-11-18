@@ -4,6 +4,7 @@ import { LayoutComponent } from './pages/shared/layout/layout.component';
 import { RegisterComponent } from './pages/view/register/register.component';
 import { LoginComponent } from './pages/view/login/login.component';
 import { DashboardComponent } from './pages/view/dashboard/dashboard.component';
+import { ContentComponent } from './pages/view/content/content.component';
 
 const routes: Routes = [
   {path:'', component:LayoutComponent,
@@ -12,8 +13,8 @@ const routes: Routes = [
     },
       {path:'register', component: RegisterComponent},
       {path:'login', component: LoginComponent},    
-      {path:'home', component: DashboardComponent}
-      
+      {path:'home', component: ContentComponent},
+      {path:'dashboard', component: DashboardComponent}
   ]
 }
 ];

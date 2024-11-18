@@ -18,13 +18,15 @@
               <div class="mt-0 font-semibold text-xl">
                 {{ '' + product.desc}}
                 <br />
-                {{ 'Quantidade de funcionários: ' + product.quant }}
               </div>
             </div>
       
             <div class="card-buttons">
-              <p-button severity="secondary" [outlined]="true" label="editar"></p-button>
-              <p-button styleClass="ml-2" label="visualizar"></p-button>
+              <p-button styleClass="ml-2" [link]="true"><a 
+                href="https://www.google.com/maps/place/Savegnago+Supermercados/@-22.9038463,-47.0679552,15z/data=!4m6!3m5!1s0x94c8c933721dbf6f:0x76d689e24f300dfd!8m2!3d-22.8974872!4d-47.0705996!16s%2Fg%2F11fp8zm10x?entry=ttu&g_ep=EgoyMDI0MTExNy4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank" rel="noopener noreferrer" class="p-button font-bold">
+              Visualizar no Maps
+            </a></p-button>
             </div>
           </div>
         </ng-template>
@@ -36,7 +38,17 @@
         <div class="chart-pie"> 
             <p-chart type="pie" [data]="data" [options]="options"></p-chart>
             <p-fieldset legend="Sobre o gráfico">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <p>
+                O gráfico apresenta a distribuição de funcionários em diversas unidades de uma empresa.
+                 Cada unidade está representada por uma barra colorida 
+                (ou por outro elemento gráfico, dependendo do tipo de gráfico),
+                 e o eixo vertical indica a quantidade de funcionários, enquanto o eixo horizontal representa as unidades.
+                </p>
+
+            <p>
+             Esse gráfico facilita a análise de distribuição de pessoal, permitindo identificar possíveis disparidades ou a 
+             necessidade de realocação de recursos humanos entre as unidades.
+            </p>
             </p-fieldset>
         </div>
     </div>

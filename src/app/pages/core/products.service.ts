@@ -39,7 +39,7 @@ export class ProductsService {
     {
         id: '5',
         name: 'Unidade de Valinhos',
-        desc: 'Localização: Av Paulínea',
+        desc: 'Localização: Av Paulínia',
         quant: 24,
         image: '../../assets/imgs/mercado5.png'
     },

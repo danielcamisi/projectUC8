@@ -16,13 +16,13 @@ export class DashboardComponent implements OnInit {
 
   // Dados do gráfico
   employeeData: { name: string; quant: number }[] = [
-    { name: 'Campinas', quant: 540 },
-    { name: 'Valinhos', quant: 236 },
-    { name: 'Vinhedo', quant: 732 },
-    { name: 'Hortolândia', quant: 120 },
-    { name: 'Paulínia', quant: 340 },
-    { name: 'São Paulo', quant: 512 },
-    { name: 'Sorocaba', quant: 430 }
+    { name: 'Campinas', quant: 87 },
+    { name: 'Valinhos', quant: 65 },
+    { name: 'Vinhedo', quant: 24 },
+    { name: 'Hortolândia', quant: 48 },
+    { name: 'Paulínia', quant: 19 },
+    { name: 'São Paulo', quant: 45 },
+    { name: 'Sorocaba', quant: 69 }
   ];
 
   constructor(private productService: ProductsService) {}
