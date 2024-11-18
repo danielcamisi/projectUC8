@@ -26,7 +26,7 @@ export class LoginComponent implements OnInit{
 
   submit(){
     if(this.signUpform.valid){
-      console.log("Usuário registrado com sucesso");
+      console.log("Usuário logado com sucesso!");
       this.router.navigate(['home']);
     }
   }

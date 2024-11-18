@@ -1,20 +1,23 @@
-<mat-card>
-    <div class="div-main">
+<div class="body">
     <form [formGroup]="signUpform">
-        <div class="inside-register">
-            <h1>Entrar</h1>
-            <h2>Email</h2>
-            <input type="email" pInputText formControlName="email" placeholder="email">
-            <h2>Senha</h2>
-            <input type="password" pInputText formControlName="pword" placeholder="Senha">
-            <div class="button-mat-card">
-                <p-button (onClick)="submit()"> Login </p-button>
-            </div>
+      <div class="inside-register">
+        <h1>Entrar</h1>
+        <div class="inputs_conteiner">
+          <h2>Email</h2>
+          <input formControlName="email" placeholder="Email" type="email" />
         </div>
-        <div class="image">
-            <img src=".">
+        <div class="inputs_conteiner">
+          <h2>Senha</h2>
+          <input formControlName="pword" placeholder="Senha" type="password" />
         </div>
-    
+        <div class="button-mat-card">
+          <p-button (onClick)="submit()"> Entrar </p-button>
+        </div>
+      </div>
+      <div class="image">
+        <img
+          src="https://v1.go.senac.br/portal/uploads/1161-06-08-2012_08-15-35marca1.jpg"
+        />
+      </div>
     </form>
-    </div>
-    </mat-card> 
+  </div>

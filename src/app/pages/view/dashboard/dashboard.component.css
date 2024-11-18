@@ -23,3 +23,38 @@
     padding-top: 3em;
     padding-bottom: 3em;
 }
+
+  .carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Garante que o item ocupe toda a largura */
+    max-width: 300px; /* Define o tamanho máximo para o card */
+    margin: auto; /* Centraliza os itens no carrossel */
+    overflow: hidden; /* Garante que o conteúdo não transborde */
+    border: 1px solid #ccc; /* Opcional: borda ao redor do card */
+    border-radius: 8px; /* Arredonda os cantos */
+    background-color: white; /* Cor de fundo do card */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+  }
+  
+  .carousel-image {
+    width: 100%; /* Adapta ao tamanho do card */
+    max-width: 300px; /* Tamanho máximo da imagem */
+    height: 200px; /* Altura fixa */
+    object-fit: cover; /* Ajusta a imagem sem distorcer */
+    border-radius: 8px 8px 0 0; /* Arredonda somente o topo da imagem */
+  }
+  
+  .card-content {
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  .card-buttons {
+    margin-top: 10px; /* Espaçamento superior */
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espaçamento entre botões */
+  }

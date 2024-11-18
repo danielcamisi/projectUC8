@@ -28,6 +28,7 @@ import { InputTextModule } from 'primeng/inputtext';
 import { ChartModule } from 'primeng/chart';
 import { TableModule } from 'primeng/table';
 import { FieldsetModule } from 'primeng/fieldset';
+import { ImageModule } from 'primeng/image';
 
 
 
@@ -60,7 +61,8 @@ import { NgxSpinnerModule } from "ngx-spinner";
     CarouselModule,
     ChartModule,
     TableModule,
-    FieldsetModule
+    FieldsetModule,
+    ImageModule
   ],
   providers: [
     provideAnimationsAsync()

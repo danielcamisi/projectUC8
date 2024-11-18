@@ -11,51 +11,51 @@ export class ProductsService {
     return [{
         id: '1',
         name: 'Unidade de Campinas',
-        price: 700,
-        quant: 1000,
-        image: 'https://th.bing.com/th/id/OIG4.vQ6XEhBj4D2aS61U6_sD?pid=ImgGn'
+        desc: 'Localização: Av Marcio Egídio de Souza Aranha',
+        quant: 87,
+        image: '../../assets/imgs/mercado1.png'
     },
     {
         id: '2',
         name: 'Unidade de São Paulo',
-        price: 700,
-        quant: 1000,
-        image: 'assets/imgs/mercado2.png'
+        desc: 'Localização: Rua Lucio Petit de Souza',
+        quant: 65,
+        image: '../../assets/imgs/mercado2.png'
     },
     {
         id: '3',
         name: 'Unidade de Sorocaba',
-        price: 700,
-        quant: 1000,
-        image: 'assets/imgs/mercado3.png'
+        desc: 'Localização: Av Orosimbo Maia',
+        quant: 69,
+        image: '../../assets/imgs/mercado3.png'
     },
     {
         id: '4',
         name: 'Unidade de Paulínia',
-        price: 700,
-        quant: 1000,
-        image: '/assets/imgs/mercado4.png'
+        desc: 'Localização: Rua Guinsso Morello',
+        quant: 12,
+        image: '../../assets/imgs/mercado4.png'
     },
     {
         id: '5',
         name: 'Unidade de Valinhos',
-        price: 700,
-        quant: 1000,
-        image: 'app/assets/imgs/mercado5.png'
+        desc: 'Localização: Av Paulínea',
+        quant: 24,
+        image: '../../assets/imgs/mercado5.png'
     },
     {
         id: '6',
         name: 'Unidade de Vinhedo',
-        price: 700,
-        quant: 1000,
-        image: 'app/assets/imgs/mercado6.png'
+        desc: 'Localização: Av Vinhedo',
+        quant: 19,
+        image: '../../assets/imgs/mercado6.png'
     },
     {
         id: '7',
         name: 'Unidade de Hortolândia',
-        price: 700,
-        quant: 1000,
-        image: 'app/assets/imgs/mercado7.png'
+        desc: 'Localização: Av John Boyd Dunlop',
+        quant: 48,
+        image: '../../assets/imgs/mercado7.png'
     }];
   }
 
