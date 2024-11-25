@@ -1,19 +1,12 @@
-<<<<<<< HEAD
-import { Component } from '@angular/core';
-=======
 import { Component, OnInit } from '@angular/core';
 import { Form, FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
->>>>>>> master
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
-<<<<<<< HEAD
-export class LoginComponent {
-=======
 export class LoginComponent implements OnInit{
   signUpform!: FormGroup;
 
@@ -37,6 +30,5 @@ export class LoginComponent implements OnInit{
       this.router.navigate(['home']);
     }
   }
->>>>>>> master
 
 }

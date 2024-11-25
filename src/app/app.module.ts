@@ -23,11 +23,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
 
 import { ButtonModule } from 'primeng/button';
-<<<<<<< HEAD
-
-
-
-=======
 import { CarouselModule } from 'primeng/carousel';
 import { InputTextModule } from 'primeng/inputtext';
 import { ChartModule } from 'primeng/chart';
@@ -38,7 +33,6 @@ import { ImageModule } from 'primeng/image';
 
 
 import { NgxSpinnerModule } from "ngx-spinner";
->>>>>>> master
 
 @NgModule({
   declarations: [
@@ -61,9 +55,6 @@ import { NgxSpinnerModule } from "ngx-spinner";
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
-<<<<<<< HEAD
-    ButtonModule
-=======
     ButtonModule,
     InputTextModule,
     NgxSpinnerModule,
@@ -72,7 +63,6 @@ import { NgxSpinnerModule } from "ngx-spinner";
     TableModule,
     FieldsetModule,
     ImageModule
->>>>>>> master
   ],
   providers: [
     provideAnimationsAsync()

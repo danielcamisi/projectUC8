@@ -1,21 +1,10 @@
-<<<<<<< HEAD
-import { Component } from '@angular/core';
-=======
 import { Component, OnInit } from '@angular/core';
 import { ProductsService } from '../../core/products.service';
 import { Products } from '../../core/product';
->>>>>>> master
 
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
-<<<<<<< HEAD
-  styleUrl: './dashboard.component.css'
-})
-export class DashboardComponent {
-
-}
-=======
   styleUrls: ['./dashboard.component.css'],
   providers: [ProductsService]
 })
@@ -103,4 +92,3 @@ export class DashboardComponent implements OnInit {
     };
   }
 }
->>>>>>> master
