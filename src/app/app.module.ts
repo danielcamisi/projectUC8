@@ -30,9 +30,8 @@ import { TableModule } from 'primeng/table';
 import { FieldsetModule } from 'primeng/fieldset';
 import { ImageModule } from 'primeng/image';
 
-
-
 import { NgxSpinnerModule } from "ngx-spinner";
+
 
 @NgModule({
   declarations: [
@@ -41,7 +40,8 @@ import { NgxSpinnerModule } from "ngx-spinner";
     RegisterComponent,
     LoginComponent,
     DashboardComponent,
-    ContentComponent
+    ContentComponent,
+
   ],
   imports: [
     BrowserModule,
