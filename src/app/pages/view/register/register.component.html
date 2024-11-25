@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <mat-card>
 <form [formGroup]="signUpform">
@@ -11,3 +12,34 @@
 
 </form>
 </mat-card>
+=======
+<div class="body">
+    <form [formGroup]="signUpform">
+      <div class="inside-register">
+        <h1>Cadastrar</h1>
+        <div class="inputs_conteiner">
+          <h2>Nome</h2>
+          <input formControlName="user" placeholder="Usuário" />
+        </div>
+        <div class="inputs_conteiner">
+          <h2>Email</h2>
+          <input formControlName="email" placeholder="Email" type="email" />
+        </div>
+        <div class="inputs_conteiner">
+          <h2>Senha</h2>
+          <input formControlName="pword" placeholder="Senha" type="password" />
+        </div>
+        <div class="button-mat-card">
+          <p-button (onClick)="submit()"> Registrar </p-button>
+        </div>
+      </div>
+      <div class="image">
+        <a href="https://www.sp.senac.br/">
+        <img
+          src="https://v1.go.senac.br/portal/uploads/1161-06-08-2012_08-15-35marca1.jpg"
+        />
+      </a>
+      </div>
+    </form>
+  </div>
+>>>>>>> master

@@ -16,11 +16,27 @@ footer{
     width: 250px; /* Largura da sidenav */
     flex-shrink: 0; /* Não permitir que a sidenav encolha */
   }
+<<<<<<< HEAD
   
+=======
+  .side-nav-div{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+
+  }
+  .side-nav-div p-button{
+    padding: 1em;
+  }
+>>>>>>> master
   mat-sidenav-content {
     display: flex;
     flex-direction: column;
     flex-grow: 1; /* A área de conteúdo vai ocupar o espaço restante */
+<<<<<<< HEAD
+=======
+    background-color: #3e73cf;;
+>>>>>>> master
   }
   
   .main-content {
@@ -29,3 +45,12 @@ footer{
     overflow-y: auto; /* Permite rolar o conteúdo principal, se necessário */
   }
   
+<<<<<<< HEAD
+=======
+mat-toolbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+>>>>>>> master

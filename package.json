@@ -20,8 +20,15 @@
     "@angular/platform-browser": "^18.2.0",
     "@angular/platform-browser-dynamic": "^18.2.0",
     "@angular/router": "^18.2.0",
+<<<<<<< HEAD
     "primeicons": "^7.0.0",
     "primeng": "^17.18.11",
+=======
+    "chart.js": "^4.4.6",
+    "ngx-spinner": "^17.0.0",
+    "primeicons": "^7.0.0",
+    "primeng": "^17.18.12",
+>>>>>>> master
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.10"
@@ -39,4 +46,8 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.5.2"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> master

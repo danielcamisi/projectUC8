@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <mat-toolbar>
     <button (click)="open()">
     <mat-icon>menu</mat-icon>
@@ -7,6 +8,25 @@
 <mat-sidenav-container class="sidenav-container">
     <mat-sidenav [opened]="sidenav"> Opened </mat-sidenav>
     <mat-sidenav-content> closed 
+=======
+<ngx-spinner type="ball-scale-multiple" style="color:white">Carregando...</ngx-spinner>
+<div class="div-main">
+    <mat-toolbar>
+        <button (click)="open()">
+                <mat-icon>menu</mat-icon>
+        </button>
+    </mat-toolbar>
+<mat-sidenav-container class="sidenav-container">
+    <mat-sidenav [opened]="sidenav"> 
+        <div class="side-nav-div">
+            <a routerLink="/login">Login</a>
+            <a routerLink="/register">Cadastrar</a>
+            <a routerLink="/dashboard">Dashboard</a>
+            <a routerLink="/home">Página Principal</a>
+    </div>
+         </mat-sidenav>
+    <mat-sidenav-content> 
+>>>>>>> master
         <main class="main-content">
             <router-outlet></router-outlet>
         </main>
